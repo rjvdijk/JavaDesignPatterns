@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ShapeFactoryTest {
+class FactoryMethodTest {
 
     ShapeFactory factory = new ShapeFactory();
     Shape roundFood = factory.getFood("Round");

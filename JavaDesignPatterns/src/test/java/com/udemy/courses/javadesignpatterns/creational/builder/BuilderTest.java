@@ -2,13 +2,14 @@ package com.udemy.courses.javadesignpatterns.creational.builder;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class Apartment2Test {
+class BuilderTest {
 
     @Test
-    void builder() {
-        Apartment2 ap1 = Apartment2.builder()
+    void testBuilder() {
+        ApartmentBuilder builder = new ApartmentBuilder();
+        Apartment ap1 = builder
                 .setSqm(25)
                 .setRooms(2)
                 .setCity("London")
@@ -17,10 +18,13 @@ class Apartment2Test {
                 .build();
         ap1.display();
 
-        Apartment2 ap2 = Apartment2.builder()
+        Apartment ap2 = builder
                 .setRooms(3)
                 .setCity("Paris")
                 .build();
         ap2.display();
+
+        assertEquals(1,1);
     }
+
 }

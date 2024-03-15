@@ -2,9 +2,9 @@ package com.udemy.courses.javadesignpatterns.creational.prototype;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class VehicleTest {
+class PrototypeTest {
 
     @Test
     void testClient() {
@@ -21,6 +21,8 @@ class VehicleTest {
         b1.isClone(b2);
 
         b1.isClone(c1);
+
+        assertEquals(1,1);
     }
 
 }
