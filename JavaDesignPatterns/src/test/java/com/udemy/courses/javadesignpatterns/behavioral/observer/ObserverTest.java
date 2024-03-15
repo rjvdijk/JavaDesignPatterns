@@ -1,4 +1,4 @@
-package com.udemy.courses.javadesignpatterns.behaviroal.observer;
+package com.udemy.courses.javadesignpatterns.behavioral.observer;
 
 import org.junit.jupiter.api.Test;
 

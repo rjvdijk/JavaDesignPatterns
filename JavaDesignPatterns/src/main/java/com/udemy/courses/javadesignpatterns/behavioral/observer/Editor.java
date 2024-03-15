@@ -1,6 +1,4 @@
-package com.udemy.courses.javadesignpatterns.behaviroal.observer;
-
-import java.util.Objects;
+package com.udemy.courses.javadesignpatterns.behavioral.observer;
 
 public class Editor {
 
